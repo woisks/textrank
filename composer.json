@@ -1,0 +1,26 @@
+{
+  "name": "woisks/textrank",
+  "description": "woisks TextRank science for PHP7 and HHVM.",
+  "keywords": [
+    "science",
+    "textrank",
+    "PHP7"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lifenglin",
+      "email": "woisks@126.com"
+    }
+  ],
+  "require": {
+    "php": "7.*",
+    "ext-ctype": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Woisk\\TextRank\\": "src/"
+    }
+  }
+}
